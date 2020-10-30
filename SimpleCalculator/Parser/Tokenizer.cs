@@ -21,6 +21,7 @@ namespace SimpleCalculator.Parser
         private readonly Dictionary<char, Token> operatorSymbols;
         private bool isExpressionParsed = false;
         private const char DOT = '.';
+        
         /// <summary>
         /// Текущий токен.
         /// </summary>
